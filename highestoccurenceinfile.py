@@ -1,0 +1,23 @@
+# Find the most common word in a file
+
+#Get the file name from the user
+name= input("Enter file:")
+handle= open(name)
+
+# Count the occurrences of each word
+counts= dict()
+for line in handle:
+    words= line.split()
+    for word in words:
+        counts[word]= counts.get(word,0)+1
+
+# Find the most common word
+bigcount= None
+bigword= None
+for word,count in counts.items():
+    if bigcount is None or count > bigcount:
+        bigword= word
+        bigcount= count
+
+# Print the result
+print(bigword, bigcount)    
