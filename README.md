@@ -1,3 +1,5 @@
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="arnabadhikary" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/arnabadhikary?trk=profile-badge">Arnab Adhikary</a></div>
+              
 # Python for Everybody Assignments
 
 This folder contains standalone Python scripts completed for the Python for Everybody course. Run them from this folder with Python.
